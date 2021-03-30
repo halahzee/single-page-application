@@ -48,6 +48,22 @@ background: rgb(226, 164, 83);
 margin: auto;
 }
 
+
+
+.homeInfo img{
+  width: 600px;
+  
+}
+
+
+.homeInfo h4{
+  width: 600px;
+  margin: auto;
+
+}
+
+
+
 .shopInfo{
   line-height: 30px;
   

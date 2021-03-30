@@ -5,6 +5,7 @@ import Shop from './Shop';
 import About from './About';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from "./Footer";
+import reactImage from './img/react-router.jpg';
 
 
 
@@ -44,13 +45,12 @@ const Home = () => (
 <br></br>
 <h1> Using React Router to Optimize Single Page Applications (SPAs)
   </h1>
-  <br></br>
-
-  <h3>Welcome to the Home Page</h3>
- 
+  <br></br> 
+  <img src={reactImage} alt="react image"></img>
+  
   <p>
     <h4>
-      Go to the Shop page and the about page to find some information!!
+    single-page apps are different from the more traditional multi-page apps that you see everywhere. The biggest difference is that navigating a single-page app doesn't involve going to an entirely new page. 
     </h4>
   </p>
 </div>
