@@ -28,7 +28,7 @@ const fetchItem = async() => {
                  <h3>
                 {item.setup}<br></br>
                 {item.punchline}<br></br>
-                <hr></hr>
+         
                
                 
                  </h3>

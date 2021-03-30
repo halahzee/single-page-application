@@ -49,9 +49,7 @@ const Home = () => (
   <img src={reactImage} alt="react image"></img>
   
   <p>
-    <h4>
-    single-page apps are different from the more traditional multi-page apps that you see everywhere. The biggest difference is that navigating a single-page app doesn't involve going to an entirely new page. 
-    </h4>
+    
   </p>
 </div>
 

@@ -12,7 +12,7 @@ nav{
   min-height: 15vh;
   background-color: rgb(110, 46, 116);
   color: rgb(226, 209, 59);
-  margin-bottom: 10px;
+
 }
 nav h3{
  
@@ -37,13 +37,26 @@ nav h3{
 
 .aboutInfo{
 line-height: 40px;
-background: rgb(181, 119, 194);
+background: rgb(226, 164, 83);
 margin: auto;
+padding-bottom: 10px;
 }
+
+
+.aboutInfo h3{
+  background-color: rgb(122, 66, 128);
+  margin: auto;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
 
 .homeInfo{
 line-height: 40px;
-height: 600px;
+height: 700px;
 background: rgb(226, 164, 83);
 margin: auto;
 }
@@ -52,7 +65,7 @@ margin: auto;
 
 .homeInfo img{
   width: 600px;
-  
+
 }
 
 
@@ -66,8 +79,9 @@ margin: auto;
 
 .shopInfo{
   line-height: 30px;
-  
-  background: rgb(50, 108, 146);
+  padding-bottom: 30px;
+  padding-top: 10px;
+  background: rgb(226, 164, 83);
  
 }
 
@@ -86,6 +100,8 @@ margin: auto;
   width: 600px;
   border-radius: 10px;
   margin-top: 10px;
-  background:  rgba(226, 209, 59, 0.692);
+  margin-bottom: 10px;
+  color: whitesmoke;
+  background-color: rgb(122, 66, 128);
 
 }
