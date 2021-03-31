@@ -11,9 +11,11 @@ function Nav(){
 
     return(
         <nav>
-           <h3>SPA app</h3> 
-           <ul className="nav-links">
-               
+             <ul className="nav-links">
+          <Link style={navStyle} to="/single-page-application">
+               <li>SPA app</li>
+               </Link>
+          
                <Link style={navStyle} to="/shop">
                <li>Shop</li>
                </Link>
