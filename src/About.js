@@ -28,8 +28,6 @@ const fetchItem = async() => {
                  <h3>
                 {item.setup}<br></br>
                 {item.punchline}<br></br>
-         
-               
                 
                  </h3>
            

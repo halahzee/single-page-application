@@ -11,11 +11,8 @@ function Nav(){
 
     return(
         <nav>
-           <h3>Logo</h3> 
+           <h3>SPA app</h3> 
            <ul className="nav-links">
-           <Link style={navStyle} exact to="/"> 
-               <li>Home</li>
-               </Link> 
                
                <Link style={navStyle} to="/shop">
                <li>Shop</li>
