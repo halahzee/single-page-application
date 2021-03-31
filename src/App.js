@@ -12,6 +12,8 @@ import reactImage from './img/react-router.jpg';
 function App(){
 // s
   return(
+
+
 <Router> 
   {/** React Router provides routing capabilities to single-page apps built in React*/}
 
@@ -22,7 +24,7 @@ function App(){
       {/** the switch will be responsible and will make sure only one rout will show at the time  */}
     
       <Switch> 
-      <Route path="/" exact component={Home}/>
+      <Route path="/single-page-application" exact component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/shop" component={Shop}/>
       </Switch>
